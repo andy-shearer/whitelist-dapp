@@ -5,7 +5,7 @@ coverage.json
 typechain
 
 .idea/
-.iml
+**/.iml
 
 #Hardhat files
 cache
