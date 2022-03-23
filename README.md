@@ -3,4 +3,5 @@ Project following [LearnWeb3DAO Sophmore track](https://www.learnweb3.io/tracks/
 
 Built using hardhat and next.js tools - see both readme files in the relevant subdirectories ([hardhat](./hardhat/README.md) / [next.js](./my-app/README.md))
 
+https://whitelist-dapp-pi-ten.vercel.app/
 ![](./screenshot.png)
