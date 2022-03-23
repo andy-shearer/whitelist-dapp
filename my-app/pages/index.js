@@ -84,8 +84,8 @@ export default function Home() {
         abi,
         provider
       );
-      // call the numWhitelistedAddresses from the contract
-      const _numberOfWhitelisted = await whitelistContract.numWhitelistedAddresses();
+      // call the numAddressesWhitelisted from the contract
+      const _numberOfWhitelisted = await whitelistContract.numAddressesWhitelisted();
       setNumberOfWhitelisted(_numberOfWhitelisted);
     } catch (err) {
       console.error(err);
@@ -195,7 +195,7 @@ export default function Home() {
             Its an NFT collection for developers in Crypto.
           </div>
           <div className={styles.description}>
-            {numberOfWhitelisted} {numberOfWhitelisted > 1 ? "have" : "has"} already joined the Whitelist
+            {numberOfWhitelisted} {numberOfWhitelisted === 1 ? "has" : "have"} already joined the Whitelist
           </div>
           {renderButton()}
         </div>
